@@ -2,21 +2,7 @@
 <html>
 
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
+  <base href="./">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -30,16 +16,14 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
 
+  <!-- Title -->
   <title>Pet Space Admin Panel</title>
   <link rel="manifest" href="manifest.json">
 
   <!-- Video Player - https://medium.com/flutter-community/flutter-video-player-3a2f4f8562a3 -->
   <script src="https://cdn.jsdelivr.net/npm/afterglowplayer@ 1.x"></script>
 
-  <script>
-
-    var serviceWorkerVersion = '1581728906';
-  </script>
+  <script>var serviceWorkerVersion = '740017603';</script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
   <!-- Network image fix-->
@@ -57,7 +41,7 @@
       srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x"
       media="(prefers-color-scheme: dark)">
     <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
-  </picture>&gt;
+  </picture>
   <script>window.flutterWebRenderer = "html"</script>
 
 
@@ -79,8 +63,6 @@
   <!-- Video Player -->
   <a id="triggerVideoPlayer" width="720" height="1280" class="afterglow" href="#videoPlayer"></a>
   <video id="videoPlayer" width="720" height="1280" data-skin="dark"></video>
-
-
 </body>
 
 </html>
